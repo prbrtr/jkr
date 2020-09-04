@@ -1,0 +1,100 @@
+/* header */
+header {
+ background-image: url('Nav.png');
+    background-size: 100%;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.left {
+    position: absolute;
+    left: 25px;
+    display: inline-block;
+    top: 17px;
+    font-weight: bold;
+
+
+}
+
+.left img {
+    width: 31px;
+}
+
+.right {
+    position: absolute;
+    right: 25px;
+    display: inline-block;
+    top: 17px;
+
+
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: auto;
+    padding-top: 17px;
+
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+
+    display: inline-block;
+
+    font-weight: bold;
+
+}
+
+.navbar li a {
+
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+}
+
+.navbar li a:hover {
+    color: rgb(39, 39, 39);
+
+}
+
+.navbar li a.active {
+    color: rgb(107, 107, 107);
+}
+
+
+
+/* footer */
+
+.icons{
+    padding-left: 10px;
+
+    
+
+
+}
+.icons a i{
+    color: #222;
+padding:5px;
+}
+
+footer .btn {
+    color:#222;
+    font-weight: bold;
+ 
+}
+
+main{
+    background-image: url("footer.jpg");
+}
+/* photo gallary */
+.gallary{
+    padding-top: 100px;
+}
